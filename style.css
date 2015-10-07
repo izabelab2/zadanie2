@@ -1,1 +1,5 @@
-
+body{margin:0; padding:0; text-decoration:none}
+.clear{clear:both}
+.wrapper{width:1200px;height:100%; margin:0 auto}
+.bottom_content{background:#000; width:100%}
+.bottom_content img{display:inline-block; width:200px;height:auto}
