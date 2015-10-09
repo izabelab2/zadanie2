@@ -1,6 +1,50 @@
 body{margin:0; padding:0; text-decoration:none}
 .clear{clear:both}
-.wrapper{width:1200px;height:100%; margin:0 auto}
+.wrapper{width:1200px;margin:30px auto 80px; }
 .bottom_content{background:#000; width:100%}
-.bottom_content img{display:inline-block; width:135px;height:auto;float:left;}
-.bottom_content img:last-child{float:right;}
+.bottom_content img{display:inline-block; width:135px;height:auto;float:right; padding:10px 50px 10px 0}
+.bottom_content img:first-child{float:left; padding:17px 0px 16px 50px}
+.logo_mini{display:block; float:left;padding-left:20px}
+.logo_mini img{display:inline-block; width:135px;height:auto;}
+.ex_wrap{float:right; padding-right:20px}
+.ex_wrap p{display:inline-block; cursor:pointer}
+.ex_wrap p#exercise_1{color:orange}
+.top_content{border-bottom:2px solid #f1f1f1; margin-bottom:10px; padding-bottom:10px}
+.images > div img{height:200px; width:auto; display:inline-block;}
+.images > div{float:left; width:33%; text-align:center; margin-top:50px}
+#exp_1.images > div:nth-child(7), #exp_1.images > div:nth-child(5), #exp_1.images > div:nth-child(6){margin-top:150px}
+.middle_content{padding:0 40px}
+.middle_content > p{font-size:30px; font-weight:bold; margin-bottom:0px}
+.select > p{border:1px solid gray; border-radius:2px; display:inline-block; padding:10px 30px 10px 5px; vertical-align:middle; cursor:pointer; margin-bottom:0; min-width:193px; background:#fff url('http://www.my-wonderland.pl/zadanie/img/arrow.png') no-repeat 90% 50%; color:#000}
+.select > p.green{background:green url('http://www.my-wonderland.pl/zadanie/img/arrow_w.png') no-repeat 90% 50%; color:#fff}
+.select > p.orange{background:orange url('http://www.my-wonderland.pl/zadanie/img/arrow_w.png') no-repeat 90% 50%; color:#fff}
+.select > p.red{background:red url('http://www.my-wonderland.pl/zadanie/img/arrow_w.png') no-repeat 90% 50%; color:#fff}
+
+
+
+.choose{border:1px solid gray; border-radius:2px;text-align:left;  width:250px; background:#fff;}
+.choose_wrap{position:absolute; top:50px;left:69px; z-index:2; background:transparent; padding-top:10px; display:none; opacity:0}
+.select{position:relative}
+.choose p{cursor:pointer;margin:0; padding:10px 0 10px 20px}
+.buttons .button{float:left; width:33%; }
+.buttons .button p{border:1px solid grey; border-radius:2px; display:inline-block; width:150px; text-align:center; padding:10px 0; cursor:pointer; background:green; color:#fff}
+.buttons .button p.checked{background:#fff;color:#000}
+.buttons .button.check{text-align:center;}
+.buttons .button.next{text-align:right; }
+.buttons .button.prev p, .buttons .button.next p{border-radius:15px; width:200px}
+.images > div.clear{float:none; width:auto; margin:0}
+.buttons{margin:50px 0}
+#exp_1{opacity:1}
+#exp_2{display:none; opacity:0}
+#exp_2 .select > p{min-width:255px}
+#exp_2 .choose_wrap{left:39px}
+#exp_2 .choose{width:320px}
+
+#prev{color:grey; background:url('http://www.my-wonderland.pl/zadanie/img/arrow_left.png') no-repeat 10% 50%}
+#next.stay{color:red;background:url('http://www.my-wonderland.pl/zadanie/img/arrow_right_a.png') no-repeat 90% 50%}
+
+#prev.clicked{color:red; background:url('http://www.my-wonderland.pl/zadanie/img/arrow_left_a.png') no-repeat 10% 50%}
+#next.clicked{color:grey;background:url('http://www.my-wonderland.pl/zadanie/img/arrow_right.png') no-repeat 90% 50%}
+
+
+#check_2{display:none}
